@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("fl.jpg");
+            color: white;
+            font-size: 40px;
+        }
+
+        ul {
+ margin: 0;
+ padding: 0;
+ background: #333;
+ font-size: 30px;
+}
+li {
+ display: inline;
+}
+li a {
+ display: inline-block;
+ text-decoration: none;
+ color: #fff;
+ padding: 1em 2em;
+}
+a:hover {
+ background-color:darkgray;
+}
+#li1{
+    color: #fff;
+}
+#img1{
+    border-radius:20px ;
+}
+#div{
+    background-color: #333;
+}
+#img{
+    border-radius: 600px;
+}
+#div1{
+    background-image: url("vinay\ bha\ projects\ for\ animation1.jpg");
+    height: 900px;
+    width: 1016;
+    background-size: cover;
+    animation-name: Vinay;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    position: relative;
+}
+@keyframes Vinay{
+    0%{background-image: url("vinay\ bha\ projects\ for\ animation1.jpg");}
+    25%{background-image: url("animation\ 2.jpg");}
+    50%{background-image: url("animtion3.jpg");}
+    75%{background-image: url("animation\ 4.jpg");}
+    100%{background-image: url("vinay\ bha\ projects\ for\ animation1.jpg");}
+}
+#div2{
+    height: 59px;
+    width: 1016;
+    background-color:#333;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <audio src="song.mp3" controls autoplay></audio>
+    <center><ul id="ul">
+        <li><a href="HOME.html">HOME</a></li>
+        <li><a href="ABOUT US.html">ABOUT US</a></li>
+        <li><a href="Protfolio.html">PORTFOLIO</a>
+       <li><a href="Contact.html">CONTACT</a></li>
+       <li><a href="index.html">BACK PAGE</a></li>
+       </ul></center>
+       <div id="div2"><marquee>WELCOME</marquee></div>
+       <div id="div1"></div>
+</body>
+</html>
